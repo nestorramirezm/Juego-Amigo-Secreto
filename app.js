@@ -14,8 +14,7 @@ function agregarAmigo() {
         return;
     } 
     listaAmigos.push(inputAmigo.value);
-    inputAmigo.value = "";
-    inputAmigo.focus();
+   
     //Mostrar lista de amigos en la pantalla
     ulListaAmigos.innerHTML += `<li>${inputAmigo.value}</li>`;
 };    
